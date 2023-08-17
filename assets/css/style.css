@@ -359,7 +359,7 @@ body.nav-active { overflow: hidden; }
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   background-color: var(--bg-black);
   padding-block: 20px;
   z-index: 4;
@@ -428,11 +428,7 @@ body.nav-active { overflow: hidden; }
   z-index: 3;
 }
 
-.navbar.active {
-  transform: translateX(300px);
-  visibility: visible;
-  transition: 500ms var(--cubic-out);
-}
+
 
 .navbar-top {
   display: flex;
